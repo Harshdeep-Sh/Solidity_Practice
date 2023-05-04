@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "globalDemo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "BlockNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TimeStamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "MsgSender",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Global.sol": "Global"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Global.sol": {
+			"keccak256": "0x4638306998a8c6126cd7595b9f1240183919fe84af4e99a3bd3d536cb85f8b45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://664e1e7930b9d41f50ebcd63b34dcace707ccfd6dfa08fd0ff3635551931485b",
+				"dweb:/ipfs/QmcWL3z22t7tZs5wvwTYi9zawT89ApQYxfT2EeQoQwvRCt"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum Test6.FreshJuiceSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultChoice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setLarge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setMed",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSm",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enum.sol": "Test6"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enum.sol": {
+			"keccak256": "0x1ff96c9fb39b3db563005f4993b7bf702d7c31271e835b09bf0d6701670dbed8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://39cc340e2037dc371847f8da2674051f43f3be78efb12d182aa8ba8ce98bebe3",
+				"dweb:/ipfs/QmPpVb3fxT6HHjNwECGHnHoefvMRTN5KMDHWetZXtRNkD1"
+			]
+		}
+	},
+	"version": 1
+}
